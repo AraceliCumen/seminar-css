@@ -27,6 +27,7 @@ body{
 li{
   display: inline;
   list-style: none;
+
 }
 
 
@@ -47,6 +48,18 @@ nav{
   transform: translateY(-50%)
 }
 
+.box-header ul li{
+  margin: 0 5px;
+}
+
+.box-header ul li:hover{
+  color:#f9a91a;
+}
+
+
+spam:hover{
+  color:#f9a91a;
+}
 
 img[alt="laboratoria"]{
   width: 120px;
@@ -58,17 +71,14 @@ section{
 
 button{
   background-color: #f9a91a;
-  padding: 5px;
+  padding: 10px;
+  border: 0;
   color: #fff;
   text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: 600;
   
 }
-
-
-
-
-
-
 
 div{
   display: inline-block;
@@ -80,5 +90,5 @@ spam{
 }
 
 body section:last-child{
-  margin-top: 30px;
+  margin: 30px 50px 0 
 }
