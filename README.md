@@ -1,9 +1,8 @@
-# Proyecto Positioning 101
-
+# Proyecto  Seminar-CSS
 ## Objetivos
 
- El objetivo de este proyecto es aplicar os conocimientos sobre positioning
+ El objetivo de este proyecto es aplicar os conocimientos sobre css
 
  ## Resultados
 
- ![Proyecto Positioning 101](assets/img/resultados.png "Proyecto Positioning 101")
+ ![Proyecto Seminar-css](assets/img/resultados.png "Proyecto Seminar-css")
