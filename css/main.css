@@ -1,27 +1,58 @@
-*{
+/* setear nuestros archivos*/
+
+body{
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+  padding:0px;
+  color: #303030;
 }
 
 
+/*clases reutilizables*/
+.text-uppercase{
+  text-transform: uppercase;
+}
 
-/*  Especificidad tiene que ver con valores :
+.box-header{
+  display: inline-block;
+}
 
-
-Selectores:
-p: selector de etiqueta
-id(100):0
-clase(100):0
-etiqueta(1):1
-TOTAL:1
-
-
-.byline
-id(100):10
-clase(100):0
-etiqueta(1):1
+/*clases especificas*/
+.logo-header{
+  width:200px;
+}
 
 
-*/
-body{
-  font-family: monospace;
+li{
+  display: inline;
+  list-style: none;
+}
+
+
+li a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+header{
+  position: relative;
+}
+
+nav{
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+section{
+  text-align: center;
+}
+
+
+div{
+  display: inline-block;
+  width: 32%;
 }
