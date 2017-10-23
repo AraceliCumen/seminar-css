@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+
+
+
+/*  Especificidad tiene que ver con valores :
+
+
+Selectores:
+p: selector de etiqueta
+id(100):0
+clase(100):0
+etiqueta(1):1
+TOTAL:1
+
+
+.byline
+id(100):10
+clase(100):0
+etiqueta(1):1
+
+
+*/
+body{
+  font-family: monospace;
+}
