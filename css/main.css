@@ -47,12 +47,38 @@ nav{
   transform: translateY(-50%)
 }
 
+
+img[alt="laboratoria"]{
+  width: 120px;
+}
+
 section{
   text-align: center;
 }
+
+button{
+  background-color: #f9a91a;
+  padding: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  
+}
+
+
+
+
+
 
 
 div{
   display: inline-block;
   width: 32%;
+}
+
+spam{
+  font-size: 60px;
+}
+
+body section:last-child{
+  margin-top: 30px;
 }
